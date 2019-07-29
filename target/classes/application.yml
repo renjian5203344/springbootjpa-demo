@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-boot-jpa-demo?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+
+  jpa:
+    hibernate:
+      ddl-auto: update #运行的时候自动创建一个表,建了实体类对象，会在数据库里面自动建表
+    show-sql: true  #控制台显示sql语句，便于调试
+    generate-ddl: false #禁用实体类映射数据库表的功能
+
