@@ -1,8 +1,7 @@
-package com.zhaopin.springbootjpa;
+package com.zhaopin.springbootjpa.service;
 
 
 import com.zhaopin.springbootjpa.dataobject.Author;
-
 import com.zhaopin.springbootjpa.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

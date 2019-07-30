@@ -1,4 +1,4 @@
-package com.zhaopin.springbootjpa;
+package com.zhaopin.springbootjpa.service;
 
 
 import com.zhaopin.springbootjpa.dataobject.Article;

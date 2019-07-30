@@ -1,7 +1,6 @@
 package com.zhaopin.springbootjpa.service;
 
 import com.alibaba.fastjson.JSON;
-import com.zhaopin.springbootjpa.ArticleService;
 import com.zhaopin.springbootjpa.dataobject.Article;
 import com.zhaopin.springbootjpa.dataobject.Comment;
 import org.junit.Test;

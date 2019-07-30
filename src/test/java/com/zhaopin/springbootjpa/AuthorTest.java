@@ -5,6 +5,7 @@ import com.zhaopin.springbootjpa.dataobject.Author;
 import com.zhaopin.springbootjpa.dataobject.Wallet;
 import com.zhaopin.springbootjpa.repository.AuthorRepository;
 import com.zhaopin.springbootjpa.repository.WalletRepository;
+import com.zhaopin.springbootjpa.service.AuthorService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
