@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 public interface CommentRepository extends JpaRepository<Comment,Long> {
     @Transactional
-    @Modifying
-    @Query("delete from Comment c where c.id=?1" )
+    @Modifying //在commentserviceImpl实现类里面这个事务会覆盖 CommentRepository事务
+    @Query("delete from Comment c where c.id=?1" ) //delete from 实体类
     void  deleteBy(Long id);
 }
