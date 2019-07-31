@@ -50,7 +50,7 @@ public class ArticleServiceImplTest {
 
     @Test
     public void deleteArticle(){
-        articleService.deleteArticle(34L);
+        articleService.deleteArticle(8L);
 
     }
 

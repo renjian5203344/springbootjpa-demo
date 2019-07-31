@@ -25,18 +25,17 @@ public class CommentServiceImpl implements CommentService {
     public void deleteComment(Long id) {
 
        Comment comment = commentRepository.findById(id).get();//查询出一个comment对象
-        List<Comment>  comments = comment.getArticle().getComments();
-        for (Comment comment1 : comments){
-            if(id == comment1.getId()){
-                comments.remove(comment1);
-                break;
-            }
-        }
+        comment.clearComment();
+
+//        List<Comment>  comments = comment.getArticle().getComments();
+//        for (Comment comment1 : comments){
+//            if(id == comment1.getId()){
+//                comments.remove(comment1);
+//                break;
+//            }
+//        }
         // commentRepository.deleteById(id);
          commentRepository.deleteBy(id);
-
-
-
 
     }
 }

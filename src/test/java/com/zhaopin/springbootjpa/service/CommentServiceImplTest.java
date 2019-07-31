@@ -35,7 +35,7 @@ public class CommentServiceImplTest {
 
     @Test
     public void deleteComment() {
-        commentService.deleteComment(43L);
+        commentService.deleteComment(45L);
 
 
     }
