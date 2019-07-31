@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class CommentServiceImpl implements CommentService {
 
@@ -21,8 +23,20 @@ public class CommentServiceImpl implements CommentService {
     @Transactional
     @Override
     public void deleteComment(Long id) {
-       // commentRepository.deleteById(id);
-        commentRepository.deleteBy(id);
+
+       Comment comment = commentRepository.findById(id).get();//查询出一个comment对象
+        List<Comment>  comments = comment.getArticle().getComments();
+        for (Comment comment1 : comments){
+            if(id == comment1.getId()){
+                comments.remove(comment1);
+                break;
+            }
+        }
+        // commentRepository.deleteById(id);
+         commentRepository.deleteBy(id);
+
+
+
 
     }
 }
