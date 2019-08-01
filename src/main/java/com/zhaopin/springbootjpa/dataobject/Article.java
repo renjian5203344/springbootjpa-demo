@@ -16,6 +16,8 @@ public class Article {
     private String content;  //内容                                                    //fetch默认值LAZY,当Article对象，从数据库里面映射获取它的一些数据出来的时候--》默认情况下comments情况下不去查询出来，只有你调用get()才会从数据库拿值
     @OneToMany(mappedBy = "article",cascade = {CascadeType.PERSIST,CascadeType.REMOVE},fetch = FetchType.EAGER) //指定当前的Article实体类和 Comment建立一多多的关系，通过Comment下面一个article属性来指定。
     private List<Comment> comments = new ArrayList<>();
+    @ManyToMany(mappedBy = "articles")
+    private List<Toppic> toppics = new ArrayList<>();//初始化
 
     public void  addComment(Comment comment){
         comment.setArticle(this);
