@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="775e61e5-5db2-4fa1-8174-81861b2031ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/TopicServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhaopin/springbootjpa/dataobject/Article.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,45 +21,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Topic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/AuthorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootJpaDemoApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/TopicServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CommentServiceImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/CommentServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="356">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java">
+      <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopicServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="-541">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootJpaDemoApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -65,62 +107,17 @@
       <file leaf-file-name="TopicRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WalletRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/WalletRepository.java">
+      <file leaf-file-name="TopicService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Toppic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wallet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Wallet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Author.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Author.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -130,9 +127,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -172,10 +169,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/CommentServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/controller/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/TopicServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -189,9 +189,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-237" />
-    <option name="y" value="174" />
-    <option name="width" value="1366" />
+    <option name="x" value="-409" />
+    <option name="y" value="228" />
+    <option name="width" value="1364" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectView">
@@ -199,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,24 +242,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springbootjpa" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootjpa-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootjpa-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootjpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootjpa-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootjpa-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootjpa" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,19 +273,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springbootjpa" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootjpa-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootjpa-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,13 +296,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.zhaopin.springbootjpa.service" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhaopin.springbootjpa.dataobject" />
       <recent name="com.zhaopin.springbootjpa.service" />
       <recent name="com.zhaopin.springbootjpa" />
       <recent name="com.zhaopin.springbootjpa.controller" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\Git\testspace\dajian\springbootjpa-demo\src\main\java\com\zhaopin\springbootjpa\service" />
@@ -347,11 +325,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommentServiceImplTest.deleteComment">
+  <component name="RunManager" selected="JUnit.TopicServiceImplTest.findTopic">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ArticleServiceImplTest.findArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopicServiceImplTest.findTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootjpa-demo" />
       <extension name="coverage">
         <pattern>
@@ -362,8 +340,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.zhaopin.springbootjpa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.ArticleServiceImplTest" />
-      <option name="METHOD_NAME" value="findArticle" />
+      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.TopicServiceImplTest" />
+      <option name="METHOD_NAME" value="findTopic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -374,7 +352,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArticleServiceImplTest.savearticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopicServiceImplTest.includeArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootjpa-demo" />
       <extension name="coverage">
         <pattern>
@@ -385,8 +363,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.zhaopin.springbootjpa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.ArticleServiceImplTest" />
-      <option name="METHOD_NAME" value="savearticle" />
+      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.TopicServiceImplTest" />
+      <option name="METHOD_NAME" value="includeArticle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -397,24 +375,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AuthorTest.findAuthorForPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootjpa-demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthorTest" />
-      <option name="METHOD_NAME" value="findAuthorForPageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CommentServiceImplTest.deleteComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopicServiceImplTest.saveTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootjpa-demo" />
       <extension name="coverage">
         <pattern>
@@ -425,8 +386,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.zhaopin.springbootjpa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.CommentServiceImplTest" />
-      <option name="METHOD_NAME" value="deleteComment" />
+      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.TopicServiceImplTest" />
+      <option name="METHOD_NAME" value="saveTopic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -437,7 +398,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CommentServiceImplTest.saveCommentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopicServiceImplTest.unIncludeArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootjpa-demo" />
       <extension name="coverage">
         <pattern>
@@ -448,8 +409,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.zhaopin.springbootjpa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.CommentServiceImplTest" />
-      <option name="METHOD_NAME" value="saveCommentTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.TopicServiceImplTest" />
+      <option name="METHOD_NAME" value="unIncludeArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TopicServiceImplTest.updateTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootjpa-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhaopin.springbootjpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zhaopin.springbootjpa.service" />
+      <option name="MAIN_CLASS_NAME" value="com.zhaopin.springbootjpa.service.TopicServiceImplTest" />
+      <option name="METHOD_NAME" value="updateTopic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -499,19 +483,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArticleServiceImplTest.findArticle" />
-      <item itemvalue="JUnit.AuthorTest.findAuthorForPageTest" />
-      <item itemvalue="JUnit.CommentServiceImplTest.saveCommentTest" />
-      <item itemvalue="JUnit.CommentServiceImplTest.deleteComment" />
-      <item itemvalue="JUnit.ArticleServiceImplTest.savearticle" />
+      <item itemvalue="JUnit.TopicServiceImplTest.saveTopic" />
+      <item itemvalue="JUnit.TopicServiceImplTest.updateTopic" />
+      <item itemvalue="JUnit.TopicServiceImplTest.includeArticle" />
+      <item itemvalue="JUnit.TopicServiceImplTest.findTopic" />
+      <item itemvalue="JUnit.TopicServiceImplTest.unIncludeArticle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommentServiceImplTest.deleteComment" />
-        <item itemvalue="JUnit.ArticleServiceImplTest.savearticle" />
-        <item itemvalue="JUnit.CommentServiceImplTest.saveCommentTest" />
-        <item itemvalue="JUnit.AuthorTest.findAuthorForPageTest" />
-        <item itemvalue="JUnit.ArticleServiceImplTest.findArticle" />
+        <item itemvalue="JUnit.TopicServiceImplTest.findTopic" />
+        <item itemvalue="JUnit.TopicServiceImplTest.includeArticle" />
+        <item itemvalue="JUnit.TopicServiceImplTest.saveTopic" />
+        <item itemvalue="JUnit.TopicServiceImplTest.unIncludeArticle" />
+        <item itemvalue="JUnit.TopicServiceImplTest.updateTopic" />
       </list>
     </recent_temporary>
   </component>
@@ -534,38 +518,54 @@
       <workItem from="1564552868310" duration="24000" />
       <workItem from="1564556128593" duration="118000" />
       <workItem from="1564576681947" duration="2524000" />
-      <workItem from="1564632199469" duration="5360000" />
+      <workItem from="1564632199469" duration="5867000" />
+      <workItem from="1564720064598" duration="471000" />
+      <workItem from="1564720626175" duration="266000" />
+      <workItem from="1564720965135" duration="1947000" />
+      <workItem from="1564978220283" duration="10088000" />
+      <workItem from="1565154964129" duration="1770000" />
+      <workItem from="1565182664603" duration="4435000" />
+      <workItem from="1565187478128" duration="1651000" />
+      <workItem from="1565189250277" duration="1689000" />
+      <workItem from="1565191071135" duration="291000" />
+      <workItem from="1565238548067" duration="2249000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArticleServiceImplTest_findArticle - 2019.07.29 at 20h 35m 16s.xml">
-      <configuration name="ArticleServiceImplTest.findArticle" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_findTopic - 2019.08.07 at 21h 19m 58s.xml">
+      <configuration name="TopicServiceImplTest.findTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorTest_findAuthorForPageTest - 2019.07.29 at 20h 44m 06s.xml">
-      <configuration name="AuthorTest.findAuthorForPageTest" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_findTopic - 2019.08.07 at 21h 23m 45s.xml">
+      <configuration name="TopicServiceImplTest.findTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommentServiceImplTest_saveCommentTest - 2019.07.30 at 12h 42m 20s.xml">
-      <configuration name="CommentServiceImplTest.saveCommentTest" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_findTopic - 2019.08.07 at 21h 29m 09s.xml">
+      <configuration name="TopicServiceImplTest.findTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommentServiceImplTest_deleteComment - 2019.07.30 at 13h 04m 26s.xml">
-      <configuration name="CommentServiceImplTest.deleteComment" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_findTopic - 2019.08.07 at 21h 32m 36s.xml">
+      <configuration name="TopicServiceImplTest.findTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommentServiceImplTest_deleteComment - 2019.07.30 at 13h 33m 00s.xml">
-      <configuration name="CommentServiceImplTest.deleteComment" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_findTopic - 2019.08.07 at 21h 41m 51s.xml">
+      <configuration name="TopicServiceImplTest.findTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleServiceImplTest_savearticle - 2019.07.31 at 21h 33m 43s.xml">
-      <configuration name="ArticleServiceImplTest.savearticle" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_unIncludeArticle - 2019.08.07 at 21h 46m 57s.xml">
+      <configuration name="TopicServiceImplTest.unIncludeArticle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommentServiceImplTest_deleteComment - 2019.07.31 at 21h 37m 48s.xml">
-      <configuration name="CommentServiceImplTest.deleteComment" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_unIncludeArticle - 2019.08.07 at 21h 52m 55s.xml">
+      <configuration name="TopicServiceImplTest.unIncludeArticle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommentServiceImplTest_deleteComment - 2019.07.31 at 21h 38m 11s.xml">
-      <configuration name="CommentServiceImplTest.deleteComment" configurationId="JUnit" />
+    <history-entry file="TopicServiceImplTest_includeArticle - 2019.08.07 at 21h 56m 34s.xml">
+      <configuration name="TopicServiceImplTest.includeArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopicServiceImplTest_includeArticle - 2019.08.07 at 21h 56m 48s.xml">
+      <configuration name="TopicServiceImplTest.includeArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopicServiceImplTest_saveTopic - 2019.08.08 at 12h 54m 56s.xml">
+      <configuration name="TopicServiceImplTest.saveTopic" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20095000" />
+    <option name="totallyTimeSpent" value="45459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
@@ -583,15 +583,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.23407917" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.035680752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22410867" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36412212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3427481" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -599,7 +600,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.18215962" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -611,29 +611,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/ArticleService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/AuthorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/AuthorService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/AuthorServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplication.java">
@@ -696,20 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/AuthorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/ArticleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -730,66 +699,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/AuthorServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/AuthorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/CommentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/AuthorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -800,82 +713,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpc.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/AuthorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/CommentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/ArticleServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
+        <state relative-caret-position="342">
           <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/AuthorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/CommentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/CommentServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Wallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -886,10 +785,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Toppic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/controller/Topic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="352">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Wallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/repository/TopicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/dataobject/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -898,14 +853,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="-541">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhaopin/springbootjpa/service/TopicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/AuthorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/SpringBootJpaDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/CommentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhaopin/springbootjpa/service/TopicServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
