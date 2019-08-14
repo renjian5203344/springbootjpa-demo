@@ -48,14 +48,18 @@ public class TopicServiceImplTest {
     @Test
     public void findTopic(){
         Topic topic = topicService.findTopic(47L);
-        //报错原因是调取toppic.getArticles()方法，session已经关闭了。也就是获取查询topic的session已经关闭了。
-    //    toppic.getArticles();
-   //     System.out.println(JSON.toJSONString(toppic,true));
+//        topic.getArticles();
+//        System.out.println(JSON.toJSONString(topic,true));  //报错原因是调取toppic.getArticles()方法，session已经关闭了。也就是获取查询topic的session已经关闭了。
     }
 
     @Test
     public void unIncludeArticle(){
         topicService.unIncioudArticle(47L,44L);
+    }
+
+    @Test
+    public void deleteTopic(){
+        topicService.deleteTopic(47L);
     }
 
 
